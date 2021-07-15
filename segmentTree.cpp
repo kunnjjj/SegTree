@@ -81,7 +81,7 @@ signed main()
 
     vector<int> A(n);
     for(int i=0;i<n;i++) cin>>A[i];
-    init(0,n-1,A,0);
+    // init(0,n-1,A,0);
     for(int i=0;i<q;i++)
     {
         int type; cin>>type;
@@ -89,7 +89,7 @@ signed main()
         {
             int idx,val; cin>>idx>>val;
             idx--;
-            update(0,n-1,idx,val,A,0);
+            // update(0,n-1,idx,val,A,0);
         }
         else
         {
@@ -98,7 +98,7 @@ signed main()
             qL--;
             qR--;
             
-            cout<<query(qL,qR,0,n-1,A,0)<<endl;
+            // cout<<query(qL,qR,0,n-1,A,0)<<endl;
         }
 
 
