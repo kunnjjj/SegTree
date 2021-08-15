@@ -12,7 +12,7 @@ public:
     }
     long long operation(long long a, long long b)
     {
-        return a&b;
+        return __gcd(a,b);
     }
     void replace(long long a)
     {
