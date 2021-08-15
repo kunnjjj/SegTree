@@ -1,11 +1,11 @@
-class gcd_t
+class and_t
 {
 
     long long identity;
 
 public:
     long long val;
-    gcd_t()
+    and_t()
     {
         identity = 1;
         val = 1;

@@ -1,18 +1,18 @@
-class gcd_t
+class max_t
 {
 
     long long identity;
 
 public:
     long long val;
-    gcd_t()
+    max_t()
     {
-        identity = 1;
-        val = 1;
+        identity = -1e17;
+        val = -1e17;
     }
     long long operation(long long a, long long b)
     {
-        return a&b;
+        return max(a,b);
     }
     void replace(long long a)
     {

@@ -1,18 +1,18 @@
-class gcd_t
+class xor_t
 {
 
     long long identity;
 
 public:
     long long val;
-    gcd_t()
+    xor_t()
     {
-        identity = 1;
-        val = 1;
+        identity = 0;
+        val = 0;
     }
     long long operation(long long a, long long b)
     {
-        return a&b;
+        return a^b;
     }
     void replace(long long a)
     {
