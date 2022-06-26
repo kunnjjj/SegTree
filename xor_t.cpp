@@ -1,6 +1,6 @@
 class xor_t
 {
-
+ 
     long long identity;
 
 public:

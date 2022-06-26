@@ -1,6 +1,6 @@
 class gcd_t
 {
-
+ 
     long long identity;
 
 public:

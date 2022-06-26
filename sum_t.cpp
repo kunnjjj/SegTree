@@ -1,6 +1,6 @@
 class sum_t
 {
-
+ 
     long long identity;
 
 public:

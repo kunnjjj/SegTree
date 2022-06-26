@@ -1,6 +1,6 @@
 class and_t
 {
-
+ 
     long long identity;
 
 public:

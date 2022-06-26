@@ -1,5 +1,5 @@
 class min_t
-{
+{ 
 
     long long identity;
 
